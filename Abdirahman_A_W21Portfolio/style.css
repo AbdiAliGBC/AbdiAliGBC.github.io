@@ -1,0 +1,293 @@
+@charset "utf-8";
+
+body{
+    background-color: #f6f5f5;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+}
+
+section{
+    width:100%;
+    height: 95vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-image: url("images/bacground.jpg");
+}
+
+.section2{
+    width:100%;
+    height: 160vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-image: url("images/bacground.jpg");
+}
+.section3{
+    width:100%;
+    height: 490vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-image: url("images/bacground.jpg");
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    color: #FFFFFF;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    padding: 0px 5%;
+}
+nav ul{
+    display: flex;
+}
+
+nav ul li a{
+    margin: 30px;
+    font-family: myriad pro regular;
+    color: #505050;
+    font-size: 15px;
+    font-weight: 700;
+}
+.logo{
+    font-family: RoadTest;
+    color: black;
+    font-size: 22px;
+}
+
+.active{
+    font-weight: bold;
+    color:#2d2a2a;
+}
+.text-container p:nth-child(1){
+    font-family:  calibri;
+    font-weight: bold;
+    color: #6d6d6d;
+    font-size: 22px;
+}
+
+.biotitle{
+    font-family:  calibri;
+    font-weight: bold;
+    color: #6d6d6d;
+    font-size: 22px;
+    right: 50%;
+}
+.text-container p:nth-child(2){
+    font-family:  calibri;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color:#1a1a1a;
+    font-size: 60px;
+}
+
+.acadtitle{
+    font-family:  calibri;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color:#1a1a1a;
+    font-size: 60px;
+    right: 70%;
+}
+.text-container p:nth-child(3){
+    font-family:  myriad pro regular;
+    color:#403e3e;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.bio{
+    font-family:  myriad pro regular;
+    color:#403e3e;
+    font-size: 20px;
+    line-height: 30px;
+    position: absolute;
+    right: 43%;
+    top: 5%;
+}
+.bio2{
+    font-family:  myriad pro regular;
+    color:#403e3e;
+    font-size: 20px;
+    line-height: 30px;
+    position: absolute;
+    right: 35%;
+    top: 60%;
+}
+.thermometer{
+    left: 10%;
+    position: absolute;
+    top: 10%;
+    font-size: 25;
+}
+.hotel{
+    left: 45%;
+    position: absolute;
+    top:10%;
+    font-size: 25;
+}
+.login{
+    left: 47%;
+    position: absolute;
+    top:65%;
+    font-size: 25;
+}
+.lottery{
+    left: 10%;
+    position: absolute;
+    top:27%;
+    font-size: 25;
+}
+.keras{
+    left: 48%;
+    position: absolute;
+    top:26%;
+    font-size: 25;
+}
+
+.covid{
+    left: 10%;
+    position: absolute;
+    top:47%;
+    font-size: 25;
+}
+.text-container p:nth-child(4){
+    font-family:  myriad pro regular;
+    color:#403e3e;
+    font-size: 20px;
+    line-height: 30px;
+}
+.text-container p{
+    line-height: 0px;
+    margin: 45px 0px 25;
+}
+.stray{
+    left: 1%;
+    position: absolute;
+    top:65%;
+    font-size: 25;
+}
+
+.text-container{
+    position: absolute;
+    left: 13%;
+    top: 42%;
+    transform: translate(-13%,-42%);
+}
+.model{
+    height: 560px;
+    position: absolute;
+    bottom:0px;
+    left: 70%;
+    transform: translateX(-70%);
+}
+.gbclogo{
+    height: 160px;
+    position: absolute;
+    bottom:50%;
+    left: 60%;
+}
+
+.view-resume{
+    width: 130px;
+    height: 42px;
+    border-radius: 10px;
+    font-family: calibri;
+    font-weight: bold;
+    size: 14px;
+    outline: none;
+    margin: 0px 10px;
+    border: 2px solid blue;
+    color: crimson;
+}
+.view-resume:hover{
+    border: 2px solid  crimson;
+    color: blue;
+}
+.view-plan{
+    width: 130px;
+    height: 42px;
+    border-radius: 10px;
+    font-family: calibri;
+    font-weight: bold;
+    size: 14px;
+    outline: none;
+    margin: 0px 10px;
+    border: 2px solid blue;
+    position: absolute;
+    top: 80%;
+    color: crimson;
+}
+.view-vision{
+    width: 130px;
+    height: 42px;
+    border-radius: 10px;
+    font-family: calibri;
+    font-weight: bold;
+    size: 14px;
+    outline: none;
+    margin: 0px 10px;
+    border: 2px solid blue;
+    position: absolute;
+    top: 83%;
+    color: crimson;
+}
+.view-requirements{
+    width: 130px;
+    height: 42px;
+    border-radius: 10px;
+    font-family: calibri;
+    font-weight: bold;
+    size: 14px;
+    outline: none;
+    margin: 0px 10px;
+    border: 2px solid blue;
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    color: crimson;
+}
+.view-reports{
+    width: 130px;
+    height: 42px;
+    border-radius: 10px;
+    font-family: calibri;
+    font-weight: bold;
+    size: 14px;
+    outline: none;
+    margin: 0px 10px;
+    border: 2px solid blue;
+    position: absolute;
+    top: 83%;
+    left: 20%;
+    color: crimson;
+}
+.view-summary{
+    width: 130px;
+    height: 42px;
+    border-radius: 10px;
+    font-family: calibri;
+    font-weight: bold;
+    size: 14px;
+    outline: none;
+    margin: 0px 10px;
+    border: 2px solid blue;
+    position: absolute;
+    top: 86%;
+    left: 10%;
+    color: crimson;
+}
+
+.buttons2{
+    top: 50%;
+}
